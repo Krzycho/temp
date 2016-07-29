@@ -14,9 +14,9 @@ class GUI(Frame):
         self.bttn1 = Button(self, text = "Nic nie robię")
         self.bttn1.grid(row = 1, column = 0, columnspan = 2, sticky = W)
         self.ent1 = Entry(self)
-        self.ent1.insert(0,"Default Value")
+        self.ent1.insert(0,"Def Value")
         self.ent1.grid()
-        self.bttn2 = Button(self, text = "ja też nic nie robię")
+        self.bttn2 = Button(self, text = "ja też nic robię")
         self.bttn2.grid()
         self.bttn3 = Button(self)
         self.bttn3["text"] = "Ja jednak coś robię!"
@@ -27,6 +27,8 @@ class GUI(Frame):
         self.lbl["text"]= "Coś zostało zrobione"
         self.lbl.grid()
 
+    def tralalala(self):
+        pass
 
 root = Tk()
 root.title("Proste okno interfejsu")
